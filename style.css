@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f5f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.mobile-container {
+    max-width: 400px;
+    width: 100%;
+    background: #ffffff;
+    min-height: 840px;
+    border-radius: 36px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    position: relative;
+    padding: 20px 16px 90px 16px;
+    overflow: hidden;
+}
+
+.header-location {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.location-icon {
+    color: #059669;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.location-text small {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9ca3af;
+    letter-spacing: 0.5px;
+}
+
+.location-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f3f4f6;
+    border-radius: 12px;
+    padding: 10px 14px;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.search-icon {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 12px;
+    color: #4b5563;
+    width: 100%;
+}
+
+.hero-banner {
+    background: #059669;
+    border-radius: 16px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-banner h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.hero-banner p {
+    font-size: 12px;
+    opacity: 0.9;
+    margin-bottom: 14px;
+}
+
+.promo-badge {
+    background: #ffffff;
+    color: #1f2937;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.categories-grid {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.category-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 10px 6px;
+    text-align: center;
+    flex: 1;
+}
+
+.category-icon {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.category-card span {
+    font-size: 11px;
+    font-weight: 500;
+    color: #4b5563;
+}
+
+.store-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.store-header {
+    background: #ccfbf1;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-cover-emoji {
+    font-size: 32px;
+}
+
+.store-body {
+    padding: 12px 14px;
+}
+
+.store-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.store-info-row h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.rating-badge {
+    background: #059669;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.store-desc {
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.store-meta {
+    font-size: 11px;
+    color: #9ca3af;
+    font-weight: 500;
+}
+
+.build-version {
+    text-align: center;
+    font-size: 10px;
+    color: #9ca3af;
+    margin-top: 20px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #9ca3af;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.nav-item.active {
+    color: #059669;
+}
+
+.nav-icon {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
